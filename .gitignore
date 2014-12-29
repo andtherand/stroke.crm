@@ -39,6 +39,12 @@ nbactions.xml
 nb-configuration.xml
 
 # --------------------
+# Sublime Files
+# --------------------
+
+*.sublime-*
+
+# --------------------
 # Node Files
 # --------------------
 .nodemonignore
@@ -63,3 +69,6 @@ test/coverage/
 modules/public/
 modules/views/
 /public/build/
+
+# we do not need contrib packages in the user defined repos
+packages/contrib/
